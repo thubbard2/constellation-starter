@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Constellation starter</title>
+    <style>
+      html, body { margin: 0; height: 100%; background: #02030a; color: #e2e8f0; font: 14px/1.4 ui-sans-serif, system-ui, sans-serif; }
+      #map { position: fixed; inset: 0; overflow: hidden; }
+      #help { position: fixed; left: 16px; bottom: 12px; margin: 0; opacity: 0.6; pointer-events: none; }
+      #note { position: fixed; left: 16px; top: 16px; max-width: 36rem; margin: 0; padding: 10px 14px; border-radius: 8px; background: rgb(15 23 42 / 0.9); white-space: pre-wrap; }
+      #note:empty { display: none; }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <p id="help">Drag to orbit · scroll to zoom · click a star to fly to it · drag a star to pin it · Esc: the whole map</p>
+    <p id="note" role="status"></p>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

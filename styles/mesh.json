@@ -1,0 +1,18 @@
+{
+  "name": "mesh",
+  "palette": {
+    "background": ["#0a1024", "#010208"], "clusters": ["#38bdf8", "#34d399", "#f472b6", "#fbbf24", "#a3e635", "#fb923c", "#e879f9"],
+    "core": "#a78bfa", "warm": "#fde68a", "cross": "#f1f5f9", "glow": "#fbbf24"
+  },
+  "bloom": { "on": true, "strength": 0.4, "radius": 0.4, "threshold": 0.15, "resolution": 0.5 },
+  "nodes": { "shape": "sprite", "minSize": 2, "maxSize": 14, "metric": "items" },
+  "links": { "width": 0, "tree": 0.35, "cross": 0.4, "lit": 1, "dim": 0.05, "particles": 2, "particleSpeed": 0.006, "particleWidth": 1 },
+  "mesh": {
+    "on": true, "count": 400, "shell": [450, 900], "drift": 0.2, "linkDistance": 200, "lineOpacity": 0.6, "reach": 220, "cursor": "grab",
+    "color": "#cbd5e1", "size": 7
+  },
+  "physics": { "charge": -60, "linkDistance": 30, "cluster": 0.08, "anchor": 0.02 },
+  "recency": { "halfLifeDays": 7, "ember": 0.2, "peak": 0.45, "lean": 0.25 },
+  "dim": 0.15,
+  "exposure": 1
+}

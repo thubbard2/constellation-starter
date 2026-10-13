@@ -1,0 +1,18 @@
+{
+  "name": "minimal",
+  "palette": {
+    "background": ["#0b1020", "#05070d"], "clusters": ["#38bdf8", "#34d399", "#f472b6", "#fbbf24", "#a3e635", "#fb923c", "#e879f9"],
+    "core": "#a78bfa", "warm": "#fde68a", "cross": "#cbd5e1", "glow": "#fbbf24"
+  },
+  "bloom": { "on": false, "strength": 0, "radius": 0, "threshold": 1, "resolution": 0.25 },
+  "nodes": { "shape": "ring", "minSize": 2, "maxSize": 12, "metric": "items" },
+  "links": { "width": 0, "tree": 0.22, "cross": 0.35, "lit": 0.9, "dim": 0.05, "particles": 0, "particleSpeed": 0.006, "particleWidth": 1 },
+  "mesh": {
+    "on": false, "count": 0, "shell": [550, 950], "drift": 0.15, "linkDistance": 230, "lineOpacity": 0.4, "reach": 160, "cursor": "repel",
+    "color": "#94a3b8", "size": 5
+  },
+  "physics": { "charge": -60, "linkDistance": 30, "cluster": 0.08, "anchor": 0.02 },
+  "recency": { "halfLifeDays": 7, "ember": 0.25, "peak": 0.55, "lean": 0.3 },
+  "dim": 0.15,
+  "exposure": 1
+}

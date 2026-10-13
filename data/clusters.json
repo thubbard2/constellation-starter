@@ -1,0 +1,100 @@
+{
+  "title": "Starter Constellation",
+  "clusters": [
+    {
+      "name": "Ocean Lab",
+      "groups": [
+        { "name": "Tide Pools", "items": ["Hermit crab census", "Anemone photos", "Starfish tally", "Rock pool map"] },
+        {
+          "name": "Kelp Forest",
+          "items": [
+            { "name": "Kelp growth log", "daysAgo": 0, "note": "Measured every morning at low tide; the tallest frond grew 30 cm this week." },
+            "Urchin survey", "Sea otter sightings", "Holdfast samples"
+          ]
+        },
+        { "name": "Deep Tank", "items": ["Jellyfish pulse study", { "name": "Water temperature log", "daysAgo": 2 }, "Bioluminescence notes"] },
+        { "name": "Plankton Nets", "items": ["Net tow schedule", "Diatom slides", "Copepod counts", "Microscope booking"] }
+      ]
+    },
+    {
+      "name": "Sky Watch",
+      "groups": [
+        { "name": "Telescope Deck", "items": ["Mirror cleaning", "Mount alignment", "Eyepiece set", "Dew heater fix"] },
+        { "name": "Star Charts", "items": ["Orion sketch", "Summer triangle", "Polaris finder", "Constellation quiz"] },
+        {
+          "name": "Weather Station",
+          "items": [{ "name": "Cloud cover log", "daysAgo": 1 }, "Wind vane repair", "Rain gauge", "Barometer readings", "Frost alerts"]
+        }
+      ]
+    },
+    {
+      "name": "Greenhouse",
+      "groups": [
+        { "name": "Seed Bank", "items": ["Tomato seeds", "Bean varieties", { "name": "Seed swap list", "daysAgo": 5 }, "Germination test"] },
+        { "name": "Herb Shelf", "items": ["Basil cuttings", "Mint pots", "Rosemary hedge"] },
+        { "name": "Compost", "items": ["Compost bins", "Worm farm", "Leaf mould pile", "Compost thermometer"] },
+        { "name": "Watering", "items": ["Drip lines", "Rain barrel", "Watering rota", "Mister nozzles"] }
+      ]
+    },
+    {
+      "name": "Workshop",
+      "groups": [
+        { "name": "Woodshop", "items": ["Birdhouse plans", "Dovetail practice", "Sanding station", "Workbench vise"] },
+        {
+          "name": "Electronics",
+          "items": [
+            { "name": "Soldering kit", "daysAgo": 0 }, "LED strip test",
+            { "name": "Sensor board", "daysAgo": 3, "note": "Reads soil damp, air temperature and light; sends a reading every ten minutes." },
+            "Battery drawer", "Oscilloscope loan"
+          ]
+        },
+        { "name": "Bike Bench", "items": ["Chain oiling", "Brake pads", "Tyre patch kit"] },
+        { "name": "Tool Wall", "items": ["Pegboard layout", "Label maker", "Drill bits sorted", "Clamp rack"] }
+      ]
+    },
+    {
+      "name": "Archive",
+      "groups": [
+        { "name": "Photo Boxes", "items": [{ "name": "Scan old prints", "daysAgo": 12 }, "Negative sleeves", "Photo captions", "Album covers"] },
+        { "name": "Letters", "items": ["Postcard collection", "Stamp album", "Letter index", "Wax seals"] },
+        { "name": "Maps", "items": ["Old city map", "Map drawer", "Hiking trail maps", "Globe repair", "Map frames"] }
+      ]
+    },
+    {
+      "name": "Test Kitchen",
+      "groups": [
+        {
+          "name": "Bread Lab",
+          "items": [{ "name": "Sourdough starter", "daysAgo": 1, "note": "Fed twice a day; doubles in about five hours." }, "Rye loaf", "Baguette shaping", "Proofing box"]
+        },
+        { "name": "Spice Rack", "items": ["Smoked paprika", "Curry blend", "Chili flakes", "Spice labels"] },
+        { "name": "Tasting Notes", "items": ["Seaweed salad", "Tomato soup", "Herb butter", "Tasting panel", "Recipe cards"] }
+      ]
+    },
+    {
+      "name": "Music Room",
+      "groups": [
+        { "name": "Strings", "items": [{ "name": "Guitar restring", "daysAgo": 2 }, "Violin rosin", "Ukulele tuning", "Cello case"] },
+        { "name": "Percussion", "items": ["Drum heads", "Cajon build", "Shaker eggs", "Marimba bars"] },
+        { "name": "Recording", "items": ["Microphone stands", "Room foam", { "name": "Mixing session", "daysAgo": 4 }, "Field recordings", "Playlist"] }
+      ]
+    }
+  ],
+  "links": [
+    ["Kelp growth log", "Seaweed salad"],
+    ["Tomato seeds", "Tomato soup"],
+    ["Basil cuttings", "Herb butter"],
+    ["Rain gauge", "Rain barrel"],
+    ["Water temperature log", "Barometer readings"],
+    ["Sensor board", "Wind vane repair"],
+    ["Drip lines", "Sensor board"],
+    ["Birdhouse plans", "Cajon build"],
+    ["Hiking trail maps", "Rock pool map"],
+    ["Photo captions", "Anemone photos"],
+    ["Field recordings", "Sea otter sightings"],
+    ["LED strip test", "Bioluminescence notes"],
+    ["Recipe cards", "Letter index"],
+    ["Polaris finder", "Old city map"],
+    ["Smoked paprika", "Seed swap list"]
+  ]
+}

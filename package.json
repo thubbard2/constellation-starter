@@ -1,0 +1,28 @@
+{
+  "name": "constellation-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Clusters of nodes in 3D, with bloom, link particles and an ambient mesh: three.js and three-forcegraph on made-up data.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "lil-gui": "0.21.0",
+    "three": "0.186.1",
+    "three-forcegraph": "1.43.6"
+  },
+  "devDependencies": {
+    "@types/three": "0.186.0",
+    "happy-dom": "21.0.1",
+    "vite": "8.3.4",
+    "vitest": "5.0.4"
+  }
+}
